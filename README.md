@@ -36,6 +36,29 @@ Lab3/
 
 ---
 
+##  Technologies
+- HTML5  
+- Tailwind CSS  
+- JavaScript (ES6 Modules)  
+- Open Library API  
+- LocalStorage  
+
+---
+
+## How to Run
+1. Open the project in **VS Code**  
+2. Use **Live Server** to open `index.html`  
+3. Browse, favorite books, and explore the pages
+
+---
+
+
+
+---
+
+© 2025 Book Explorer — All Rights Reserved
+
+
 
 
 
