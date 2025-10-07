@@ -1,4 +1,4 @@
-// modules/main.js
+// lab2/main.js
 import { fetchBooks } from "../lab3/fetchBooks.js";
 import { addFavorite, getFavorites, removeFavorite } from "../lab2/favorites.js";
 
