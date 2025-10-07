@@ -26,3 +26,16 @@ Lab3/
 ├── fetchBooks.js # Fetches books from API
 └── main.js # Controls main logic
 
+## Screenshots
+## Home page
+![Phase One Capstone Project](./images/screenshot1.PNG)
+![Phase One Capstone Project](./images/screenshot2.PNG)
+![Phase One Capstone Project](./images/screenshot3.PNG)
+![Phase One Capstone Project](./images/screenshot4.PNG)
+![Phase One Capstone Project](./images/screenshot5.PNG)
+
+---
+
+
+
+
