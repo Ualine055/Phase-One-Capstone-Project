@@ -4,6 +4,8 @@
 
 **Book Explorer** is a responsiveweb app built using **HTML**, **Tailwind Css**, and **Javascript** . It allows users to **browse books**. **add favorites**, and **view their favorites list** using **local storage**.
 
+---
+
 ## features
 - Browse books using the **Open library API**
 - Add or remove favorites (savedin LocalStorage)
@@ -25,6 +27,8 @@ lab2/
 Lab3/
 ├── fetchBooks.js # Fetches books from API
 └── main.js # Controls main logic
+
+---
 
 ## Screenshots
 ## Home page
@@ -52,8 +56,16 @@ Lab3/
 
 ---
 
+## Deployment
+deployed link
+[
+    https://ualine055.github.io/Phase-One-Capstone-Project/
+]
 
-
+github link
+[
+    https://github.com/Ualine055/Phase-One-Capstone-Project.git
+]
 ---
 
 © 2025 Book Explorer — All Rights Reserved
