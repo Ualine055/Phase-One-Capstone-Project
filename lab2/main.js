@@ -41,10 +41,10 @@ function renderBooks(books, allowFavorites = true) {
   }
 }
 
-// Homepage initialization (search + display)
+// homepage initialization (search + display)
 export async function initHome() {
+  const searchForm = document.querySelector("form");
   const searchInput = document.getElementById("searchInput");
-  const searchBtn = document.getElementById("searchBtn");
 
   // Load default books
   statusEl.textContent = "Loading books...";
@@ -52,8 +52,8 @@ export async function initHome() {
   renderBooks(defaultBooks);
 
   // Handle search
-  searchBtn.addEventListener("click", async (e) => {
-    e.preventDefault();
+  searchForm.addEventListener("submit", async (e) => {
+    e.preventDefault(); // Prevent page reload
     const query = searchInput.value.trim();
     if (!query) return;
 
@@ -62,6 +62,7 @@ export async function initHome() {
     renderBooks(books);
   });
 }
+
 
 // Favorites page initialization
 export function initFavoritesPage() {
