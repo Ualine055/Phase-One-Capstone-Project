@@ -33,9 +33,14 @@ Lab3/
 ## Screenshots
 ## Home page
 ![Phase One Capstone Project](./images/screenshot1.PNG)
+
 ![Phase One Capstone Project](./images/screenshot2.PNG)
 ![Phase One Capstone Project](./images/screenshot3.PNG)
+
+## favorites page
 ![Phase One Capstone Project](./images/screenshot4.PNG)
+
+## about page
 ![Phase One Capstone Project](./images/screenshot5.PNG)
 
 ---
