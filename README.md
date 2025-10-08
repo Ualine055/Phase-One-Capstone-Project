@@ -34,7 +34,10 @@ Lab3/
 ## Home page
 ![Phase One Capstone Project](./images/screenshot1.PNG)
 
+## home page with featured books
 ![Phase One Capstone Project](./images/screenshot2.PNG)
+
+## home page with featured books and footer
 ![Phase One Capstone Project](./images/screenshot3.PNG)
 
 ## favorites page
