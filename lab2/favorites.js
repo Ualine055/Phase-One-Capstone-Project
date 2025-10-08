@@ -3,7 +3,7 @@ const FAVORITES_KEY = "favoriteBooks";
 export function getFavorites() {
   return JSON.parse(localStorage.getItem(FAVORITES_KEY)) || [];
 }
-
+// adds a book to favorites
 export function addFavorite(book) {
   const favorites = getFavorites();
   if (!favorites.find(b => b.id === book.id)) {
