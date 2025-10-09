@@ -6,15 +6,56 @@
 
 ---
 
-## features
-- Browse books using the **Open library API**
-- Add or remove favorites (savedin LocalStorage)
-- Responsive layout with Tailwind Css
-- sticky navigation bar
-- Multi-page setup (Home, Favorites, About)
+## Features
+
+### Lab 1: Responsive Layout with Tailwind
+- Navbar with navigation links
+- Hero section with title
+- Responsive grid (1 column mobile, 2 tablet, 3 desktop)
+- Footer
+
+### Lab 2: DOM Interactivity & JavaScript Modules
+- Add books to favorites (click heart button)
+- Remove books from favorites
+- Data saved in browser localStorage
+- Modular JavaScript code
+
+### Lab 3: Async JavaScript & API Integration
+- Fetch real books from Open Library API
+- Search functionality
+- Loading states
+- Display book covers, titles, authors, ratings
+
+## How to Run
+
+1. Download all files
+2. Keep the folder structure as shown above
+3. Open `index.html` in your web browser
+4. Start searching for books!
+
+## How It Works
+
+1. **Homepage (index.html)**
+   - Shows books from Open Library API
+   - Search bar to find specific books
+   - Click "Add to Favorites" to save books
+
+2. **Favorites Page (favorites.html)**
+   - Shows all your saved favorite books
+   - Click "Remove" to delete from favorites
+   - Data persists even after closing browser
+
+3. **About Page (about.html)**
+   - Information about the project
+   - Features overview
+   - Technology stack
+
+4. **JavaScript Modules**
+   - `fetchBooks.js` - Gets books from internet
+   - `favorites.js` - Saves/loads favorites
+   - `main.js` - Controls homepage behavior
 
 ---
-
 ##  Main Files
 
 lab1/
@@ -48,19 +89,12 @@ Lab3/
 
 ---
 
-##  Technologies
+##  Technologies used
 - HTML5  
 - Tailwind CSS  
 - JavaScript (ES6 Modules)  
 - Open Library API  
 - LocalStorage  
-
----
-
-## How to Run
-1. Open the project in **VS Code**  
-2. Use **Live Server** to open `index.html`  
-3. Browse, favorite books, and explore the pages
 
 ---
 
