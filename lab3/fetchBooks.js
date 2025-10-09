@@ -1,6 +1,7 @@
 // lab3/fetchBooks.js
 export async function fetchBooks(query = "javascript") {
     const url = `https://openlibrary.org/search.json?q=${encodeURIComponent(query)}&limit=12`;
+    // fetch data from the API
     try {
       const res = await fetch(url);
       if (!res.ok) throw new Error("Failed to fetch books");
@@ -15,6 +16,8 @@ export async function fetchBooks(query = "javascript") {
           ? `https://covers.openlibrary.org/b/id/${book.cover_i}-M.jpg`
           : "https://via.placeholder.com/150x200?text=No+Cover",
       }));
+
+      // error handling
     } catch (err) {
       console.error("Error fetching books:", err);
       return [];

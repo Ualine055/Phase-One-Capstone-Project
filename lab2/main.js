@@ -2,7 +2,7 @@
 import { fetchBooks } from "../lab3/fetchBooks.js";
 import { addFavorite, getFavorites, removeFavorite } from "../lab2/favorites.js";
 
-const gridEl = document.getElementById("grid");
+const gridEl = document.getElementById("grid"); 
 const statusEl = document.getElementById("status");
 
 // Render book cards
@@ -13,7 +13,7 @@ function renderBooks(books, allowFavorites = true) {
     return;
   }
   statusEl.textContent = "";
-
+// create book cards
   for (const book of books) {
     const card = document.createElement("div");
     card.className = "bg-[#1a120d] border border-gray-800 rounded-lg p-4 flex flex-col items-center";
@@ -26,6 +26,7 @@ function renderBooks(books, allowFavorites = true) {
         : `<button class="bg-red-600 hover:bg-red-700 text-white px-3 py-1 rounded text-xs">Remove</button>`}
     `;
 
+    // handling the button clicks
     const btn = card.querySelector("button");
     btn.addEventListener("click", () => {
       if (allowFavorites) {
